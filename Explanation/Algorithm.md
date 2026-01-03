@@ -67,5 +67,6 @@ J(β) = Σ(yᵢ - ŷᵢ)² + λΣ|βⱼ|
 
 مثال نهایی: مثل دو استراتژی سرمایه‌گذاری: Ridge (سرمایه‌گذاری در همه سهام با وزن کم)، Lasso (سرمایه‌گذاری متمرکز در چند سهام برتر). انتخاب بستگی به تحمل ریسک (overfitting) و هدف سرمایه‌گذار دارد.
 
-<img width="320" height="158" alt="images" src="https://github.com/user-attachments/assets/8a400b6e-8b1d-426a-9b9c-f8c1b9de515b" />
+<img width="500" height="220" alt="images" src="https://github.com/user-attachments/assets/8a400b6e-8b1d-426a-9b9c-f8c1b9de515b" />
+
 
