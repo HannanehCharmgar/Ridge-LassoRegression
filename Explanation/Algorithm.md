@@ -9,9 +9,9 @@
 
 رگرسیون خطی یک الگوریتم یادگیری نظارت‌شده است که رابطه بین ویژگی‌ها و متغیر هدف را مدل می‌کند.
 
-\[
+$\[
 y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_p x_p + \epsilon
-\]
+\]$
 
 هدف، کمینه‌کردن خطای مجموع مربعات (MSE) است.
 
@@ -40,9 +40,9 @@ Ridge Regression نسخه‌ی منظم‌شده‌ی رگرسیون خطی با
 Ridge با کوچک‌کردن ضرایب، مدل را پایدارتر می‌کند.
 
 ### تابع هزینه Ridge
-\[
+$\[
 J(\beta) = \sum (y_i - \hat{y}_i)^2 + \alpha \sum \beta_j^2
-\]
+\]$
 
 ### ویژگی‌ها
 - ضرایب صفر نمی‌شوند
@@ -61,9 +61,9 @@ Lasso Regression از جریمه L1 استفاده می‌کند.
 - انجام انتخاب ویژگی خودکار
 
 ### تابع هزینه Lasso
-\[
+$\[
 J(\beta) = \sum (y_i - \hat{y}_i)^2 + \alpha \sum |\beta_j|
-\]
+\]$
 
 ### ویژگی‌ها
 - مدل ساده و قابل تفسیر
@@ -152,3 +152,4 @@ print("MSE Ridge:", mean_squared_error(y_test, ridge.predict(X_test)))
 lasso = Lasso(alpha=0.1)
 lasso.fit(X_train, y_train)
 print("MSE Lasso:", mean_squared_error(y_test, lasso.predict(X_test)))
+
